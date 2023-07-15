@@ -1,61 +1,57 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Net.Security;
-using System.Threading.Tasks;
 
 namespace MicrosoftDynamics_Dio.Models
 {
     public class Reserva
     {
         public List<Pessoa> Hospedes { get; set; }
-        public Suite suite { get; set; }
+        public Suite Suite { get; set; }
         public int DiasReservados { get; set; }
+
+        public Reserva(int diasReservados)
         {
             DiasReservados = diasReservados;
         }
+
         public void CadastrarHospedes(List<Pessoa> hospedes)
         {
-            //TODO: Verificar se a capacidade é maior ou igual ao número de Hospedes sendo recebido
-            //*Implemente aqui*
-            if (true)
+            // Verificar se a capacidade é maior ou igual ao número de Hospedes sendo recebido
+            if (hospedes.Count <= Suite.Capacidade)
             {
                 Hospedes = hospedes;
             }
             else
             {
-            //TODO: Retornar uma exception caso a capacidade for menor que o número de hospedes recebido
-            //*Implemente Aqui*
+                // Retornar uma exception caso a capacidade for menor que o número de hospedes recebido
+                throw new Exception("A capacidade é menor que o número de hóspedes.");
             }
-                            
         }
+
         public void CadastrarSuite(Suite suite)
         {
             Suite = suite;
         }
+
         public int ObterQuantidadeHospedes()
         {
-            //TODO: Retornar a quantidade de hospedes(propriedades)
-            //*Implemente Aqui*
-            return 0;
+            // Retornar a quantidade de hospedes(propriedades)
+            return Hospedes.Count;
         }
+
         public decimal CalcularValorDiaria()
         {
-            //TODO: Retornar o valor da diaria
-            //Calculo: DiasReservados x Suites.ValorDiaria
-            //*Implemente Aqui*
-            decimal valor = 0;
+            // Retornar o valor da diaria
+            // Calculo: DiasReservados x Suite.ValorDiaria
+            decimal valor = DiasReservados * Suite.ValorDiaria;
 
-            //Regra: Caso os dias reservados forem maior ou igual  a 10, conceder um desconto de 10%
-            //*Implemente Aqui*
-            if (true)
+            // Regra: Caso os dias reservados forem maior ou igual a 10, conceder um desconto de 10%
+            if (DiasReservados >= 10)
             {
-                valor = 0;
+                valor -= valor * 0.1m; // Aplicar desconto de 10%
             }
-            
-            return valor;
-            
-        }
 
+            return valor;
+        }
     }
 }

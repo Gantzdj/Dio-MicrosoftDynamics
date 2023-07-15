@@ -3,3 +3,13 @@ C:\Users\Bruno Lima\Documents\MicrosoftDynamics-Dio\obj\Debug\net7.0\MicrosoftDy
 C:\Users\Bruno Lima\Documents\MicrosoftDynamics-Dio\obj\Debug\net7.0\MicrosoftDynamics-Dio.AssemblyInfoInputs.cache
 C:\Users\Bruno Lima\Documents\MicrosoftDynamics-Dio\obj\Debug\net7.0\MicrosoftDynamics-Dio.AssemblyInfo.cs
 C:\Users\Bruno Lima\Documents\MicrosoftDynamics-Dio\obj\Debug\net7.0\MicrosoftDynamics-Dio.csproj.CoreCompileInputs.cache
+C:\Users\Bruno Lima\Documents\MicrosoftDynamics-Dio\bin\Debug\net7.0\MicrosoftDynamics-Dio.exe
+C:\Users\Bruno Lima\Documents\MicrosoftDynamics-Dio\bin\Debug\net7.0\MicrosoftDynamics-Dio.deps.json
+C:\Users\Bruno Lima\Documents\MicrosoftDynamics-Dio\bin\Debug\net7.0\MicrosoftDynamics-Dio.runtimeconfig.json
+C:\Users\Bruno Lima\Documents\MicrosoftDynamics-Dio\bin\Debug\net7.0\MicrosoftDynamics-Dio.dll
+C:\Users\Bruno Lima\Documents\MicrosoftDynamics-Dio\bin\Debug\net7.0\MicrosoftDynamics-Dio.pdb
+C:\Users\Bruno Lima\Documents\MicrosoftDynamics-Dio\obj\Debug\net7.0\MicrosoftDynamics-Dio.dll
+C:\Users\Bruno Lima\Documents\MicrosoftDynamics-Dio\obj\Debug\net7.0\refint\MicrosoftDynamics-Dio.dll
+C:\Users\Bruno Lima\Documents\MicrosoftDynamics-Dio\obj\Debug\net7.0\MicrosoftDynamics-Dio.pdb
+C:\Users\Bruno Lima\Documents\MicrosoftDynamics-Dio\obj\Debug\net7.0\MicrosoftDynamics-Dio.genruntimeconfig.cache
+C:\Users\Bruno Lima\Documents\MicrosoftDynamics-Dio\obj\Debug\net7.0\ref\MicrosoftDynamics-Dio.dll
