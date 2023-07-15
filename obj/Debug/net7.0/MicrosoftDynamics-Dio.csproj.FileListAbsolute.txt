@@ -1,0 +1,5 @@
+C:\Users\Bruno Lima\Documents\MicrosoftDynamics-Dio\obj\Debug\net7.0\MicrosoftDynamics-Dio.csproj.AssemblyReference.cache
+C:\Users\Bruno Lima\Documents\MicrosoftDynamics-Dio\obj\Debug\net7.0\MicrosoftDynamics-Dio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bruno Lima\Documents\MicrosoftDynamics-Dio\obj\Debug\net7.0\MicrosoftDynamics-Dio.AssemblyInfoInputs.cache
+C:\Users\Bruno Lima\Documents\MicrosoftDynamics-Dio\obj\Debug\net7.0\MicrosoftDynamics-Dio.AssemblyInfo.cs
+C:\Users\Bruno Lima\Documents\MicrosoftDynamics-Dio\obj\Debug\net7.0\MicrosoftDynamics-Dio.csproj.CoreCompileInputs.cache
